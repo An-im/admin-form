@@ -1,4 +1,4 @@
-# 📝 Administrative Form
+# 📝 Admin Form (Practice Project)
 
 ![Preview](./preview.png)
 
@@ -27,15 +27,17 @@ The main goal of this project was to practice building a user interface that han
 
 ## 📁 Project Structure
 
+```
 admin-form/
 ├── src/
-│ ├── main.js
-│ ├── style.css
+│   ├── main.js
+│   ├── style.css
 ├── index.html
 ├── tailwind.config.js
 ├── postcss.config.js
 ├── package.json
 └── preview.png
+```
 
 ---
 

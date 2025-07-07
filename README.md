@@ -1,7 +1,5 @@
 # 📝 Admin Form (Practice Project)
 
-![Preview](./preview.png)
-
 This is a simple and responsive administrative form built with **Vite**, **TailwindCSS**, and **Vanilla JavaScript**.
 
 It allows users to fill in details like name, email, phone number, position, and department. Submitted entries are stored locally in the browser and displayed in a table with the option to delete them.
@@ -43,7 +41,7 @@ admin-form/
 
 ## 📸 Screenshot
 
-You can see how the form looks in the image above (`preview.png`).  
+You can see how the form looks in the image above ![Preview](./preview.png).  
 The design is mobile-responsive and uses Tailwind utility classes for layout and styling.
 
 ---

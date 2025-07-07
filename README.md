@@ -41,7 +41,7 @@ admin-form/
 
 ## 📸 Screenshot
 
-You can see how the form looks in the image above ![Preview](./preview.png).  
+You can see how the form looks in the image above ![Preview](./preview.png)  
 The design is mobile-responsive and uses Tailwind utility classes for layout and styling.
 
 ---

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Form</title>
+    <script type="module" crossorigin src="/admin-form/assets/index-17458e0d.js"></script>
+    <link rel="stylesheet" href="/admin-form/assets/index-d2b4e4c2.css">
+  </head>
+  <body class="bg-gray-50 text-gray-800 font-sans p-6">
+    <div class="max-w-3xl mx-auto">
+      <h1 class="text-3xl font-bold mb-6 text-center">Administrative Form</h1>
+
+      <form id="adminForm" class="bg-white p-6 rounded-xl shadow-md space-y-4">
+        <div>
+          <label for="name" class="block font-semibold">Full Name</label>
+          <input type="text" id="name" class="w-full mt-1 p-2 border rounded" />
+          <p id="errorName" class="text-red-600 text-sm"></p>
+        </div>
+
+        <div>
+          <label for="email" class="block font-semibold">Email</label>
+          <input type="email" id="email" class="w-full mt-1 p-2 border rounded" />
+          <p id="errorEmail" class="text-red-600 text-sm"></p>
+        </div>
+
+        <div>
+          <label for="phone" class="block font-semibold">Phone Number</label>
+          <input type="tel" id="phone" class="w-full mt-1 p-2 border rounded" />
+          <p id="errorPhone" class="text-red-600 text-sm"></p>
+        </div>
+
+        <div>
+          <label for="position" class="block font-semibold">Position</label>
+          <input type="text" id="position" class="w-full mt-1 p-2 border rounded" />
+          <p id="errorPosition" class="text-red-600 text-sm"></p>
+        </div>
+
+        <div>
+          <label for="department" class="block font-semibold">Department</label>
+          <select id="department" class="w-full mt-1 p-2 border rounded">
+            <option value="">-- Select an option --</option>
+            <option value="HR">HR</option>
+            <option value="Finance">Finance</option>
+            <option value="Operations">Operations</option>
+            <option value="IT">IT</option>
+          </select>
+          <p id="errorDepartment" class="text-red-600 text-sm"></p>
+        </div>
+
+        <button
+          type="submit"
+          class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+        >
+          Submit
+        </button>
+      </form>
+
+      <div class="mt-10">
+        <h2 class="text-xl font-semibold mb-3">Submitted Entries</h2>
+        <table id="dataTable" class="w-full text-left bg-white shadow-md rounded overflow-hidden">
+          <thead class="bg-gray-100">
+            <tr>
+              <th class="py-2 px-3">Name</th>
+              <th class="py-2 px-3">Email</th>
+              <th class="py-2 px-3">Phone</th>
+              <th class="py-2 px-3">Position</th>
+              <th class="py-2 px-3">Department</th>
+              <th class="py-2 px-3">Actions</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    
+  </body>
+</html>
